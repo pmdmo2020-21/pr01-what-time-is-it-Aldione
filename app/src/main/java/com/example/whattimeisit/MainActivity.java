@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat timeFormat;
         timeFormat = new SimpleDateFormat("HH:mm");
 
+        setupViews(calendar, dateFormat, timeFormat);
+    }
+
+    private void setupViews(Calendar calendar, SimpleDateFormat dateFormat, SimpleDateFormat timeFormat) {
         TextView lblDate_now = findViewById(R.id.lblDate_now);
         lblDate_now.setText(dateFormat.format(calendar.getTime()));
         TextView lblTime_Now = findViewById(R.id.lblTime_now);
