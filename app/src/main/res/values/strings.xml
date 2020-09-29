@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhatTimeIsIt</string>
+    <string name="app_name1">What time is it?</string>
+    <string name="main_date">Date:</string>
+    <string name="main_time">Time:</string>
+    <string name="main_date_now" />
+    <string name="main_time_now" />
+</resources>
